@@ -383,3 +383,9 @@ st.markdown(
     """
 )
 
+st.markdown(
+    """
+    Source Code and Full Database:  
+    [https://github.com/gurdalertek/turkishrestaurantsdubai/](https://github.com/gurdalertek/turkishrestaurantsdubai/)
+    """
+)
