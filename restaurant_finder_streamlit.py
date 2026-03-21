@@ -209,21 +209,13 @@ st.markdown("**Terms of Use:**")
 st.caption("This is a vibe coded app, please use at your own risk with no liability for the developer.")
 st.caption("The developer is not affiliated, is not endorsing in any way any restaurant, and is not obliged to reply to any messages.")
 
-st.markdown("**Advertisement:**")
-st.markdown(
-    """
-    Learn Prompts for Data Analytics with AI  
-    [https://www.researchgate.net/publication/383481066_Data_Analytics_with_Large_Language_Models_LLM_A_Novel_Prompting_Framework](https://www.researchgate.net/publication/383481066_Data_Analytics_with_Large_Language_Models_LLM_A_Novel_Prompting_Framework)
-    """
-)
-
 df, file_path = load_data()
 if df is None:
     expected_names = " or ".join(DEFAULT_FILENAMES)
     st.warning(f"Put {expected_names} in the same folder as this script.")
     st.stop()
 
-st.caption(f"Loaded file: {file_path.name}")
+# st.caption(f"Loaded file: {file_path.name}")
 
 query = st.text_input(
     "Search by restaurant, neighbourhood, or phone",
@@ -382,3 +374,12 @@ st.download_button(
     file_name="turkish_restaurants_filtered.csv",
     mime="text/csv",
 )
+
+st.markdown("**Advertisement:**")
+st.markdown(
+    """
+    Learn Prompts for Data Analytics with AI  
+    [https://www.researchgate.net/publication/383481066_Data_Analytics_with_Large_Language_Models_LLM_A_Novel_Prompting_Framework](https://www.researchgate.net/publication/383481066_Data_Analytics_with_Large_Language_Models_LLM_A_Novel_Prompting_Framework)
+    """
+)
+
