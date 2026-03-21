@@ -203,7 +203,19 @@ def load_data():
 
 
 st.title("🍽️ Turkish Restaurants Dubai")
-st.caption("Search restaurants, filter the list, and view them on a mobile-friendly map. This is a vibe coded app, please use at your own risk with no liability for the developer. The developer is not affiliated or endorsing in any way any restaurants and is not obliged to reply to any messages.")
+st.caption("Search restaurants, filter the list, and view them on a mobile-friendly map.")
+
+st.markdown("**Terms of Use:**)
+st.caption("This is a vibe coded app, please use at your own risk with no liability for the developer.")
+st.caption("The developer is not affiliated, is not endorsing in any way any restaurant, and is not obliged to reply to any messages.")
+
+st.markdown("**Advertisement:**)
+st.markdown(
+    """
+    Learn Prompts for Data Analytics with AI  
+    [https://www.researchgate.net/publication/383481066_Data_Analytics_with_Large_Language_Models_LLM_A_Novel_Prompting_Framework](https://www.researchgate.net/publication/383481066_Data_Analytics_with_Large_Language_Models_LLM_A_Novel_Prompting_Framework)
+    """
+)
 
 df, file_path = load_data()
 if df is None:
