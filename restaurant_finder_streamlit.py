@@ -203,7 +203,7 @@ def load_data():
 
 
 st.title("🍽️ Turkish Restaurants Dubai")
-st.caption("Search restaurants, filter the list, and view them on a mobile-friendly map.")
+st.caption("Search restaurants, filter the list, and view them on a mobile-friendly map. This is a vibe coded app, please use at your own risk with no liability for the developer.")
 
 df, file_path = load_data()
 if df is None:
