@@ -205,11 +205,11 @@ def load_data():
 st.title("🍽️ Turkish Restaurants Dubai")
 st.caption("Search restaurants, filter the list, and view them on a mobile-friendly map.")
 
-st.markdown("**Terms of Use:**)
+st.markdown("**Terms of Use:**")
 st.caption("This is a vibe coded app, please use at your own risk with no liability for the developer.")
 st.caption("The developer is not affiliated, is not endorsing in any way any restaurant, and is not obliged to reply to any messages.")
 
-st.markdown("**Advertisement:**)
+st.markdown("**Advertisement:**")
 st.markdown(
     """
     Learn Prompts for Data Analytics with AI  
