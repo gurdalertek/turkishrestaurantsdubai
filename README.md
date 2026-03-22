@@ -1,6 +1,6 @@
 **Turkish Restaurants Dubai**
 
-Search restaurants, filter the list, and view them on a mobile-friendly map.
+Search Turkish restaurants in Dubai, UAE; filter the list, and view them on a mobile-friendly map.
 
 **Terms of Use:**
 
