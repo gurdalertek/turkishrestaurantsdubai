@@ -73,6 +73,69 @@ st.markdown(
             padding-right: 0.8rem;
             padding-bottom: 6rem;
         }
+
+
+# --------------
+st.markdown(
+    """
+    <style>
+    .block-container {
+        max-width: 1150px;
+        padding-top: 0.9rem;
+        padding-bottom: 5rem;
+    }
+    h1, h2, h3 { line-height: 1.15; }
+    .stButton > button,
+    .stDownloadButton > button {
+        width: 100%;
+        min-height: 44px;
+        border-radius: 14px;
+        font-weight: 600;
+    }
+    .metric-chip {
+        padding: 0.8rem 0.95rem;
+        border: 1px solid rgba(49, 51, 63, 0.18);
+        border-radius: 16px;
+        background: rgba(255,255,255,0.72);
+        margin-bottom: 0.6rem;
+    }
+    .restaurant-card {
+        border: 1px solid rgba(49, 51, 63, 0.14);
+        border-radius: 18px;
+        padding: 0.95rem 1rem;
+        background: #ffffff;
+        box-shadow: 0 1px 10px rgba(0,0,0,0.03);
+        margin-bottom: 0.9rem;
+        min-height: 170px;
+    }
+    .small-muted {
+        color: rgba(49, 51, 63, 0.72);
+        font-size: 0.93rem;
+    }
+    .card-meta {
+        display: flex;
+        gap: 0.9rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.35rem;
+    }
+    iframe { border-radius: 18px; }
+
+    div[data-testid="stTabs"] button[data-baseweb="tab"] {
+        font-size: 1.45rem !important;
+        font-weight: 800 !important;
+    }
+
+    div[data-testid="stTabs"] button[data-baseweb="tab"] p {
+        font-size: inherit !important;
+        font-weight: inherit !important;
+    }
+
+    @media (max-width: 768px) {
+        .block-container {
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            padding-bottom: 6rem;
+        }
         div[data-testid="stHorizontalBlock"] {
             flex-wrap: wrap;
             gap: 0.75rem;
@@ -81,6 +144,14 @@ st.markdown(
             min-width: 100% !important;
             flex: 1 1 100% !important;
         }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+# --------------
+
+        
     }
     </style>
     """,
