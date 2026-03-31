@@ -1,3 +1,7 @@
+**APP Running**
+
+[https://turkishrestaurantsdubai-v5hoe8dsewmdejbkygtma8.streamlit.app](https://turkishrestaurantsdubai-v5hoe8dsewmdejbkygtma8.streamlit.app)
+
 **Turkish Restaurants Dubai**
 
 Search Turkish restaurants in Dubai, UAE; filter the list, and view them on a mobile-friendly map.
